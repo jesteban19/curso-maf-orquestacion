@@ -1,0 +1,12 @@
+[project]
+name = "orquestador-maf"
+version = "0.1.0"
+description = "Curso de orquestación con Microsoft Agent Framework y DevUI"
+requires-python = ">=3.11"
+dependencies = [
+    "agent-framework-core==1.19.0",
+    "agent-framework-openai>=1,<2",
+    "agent-framework-orchestrations>=1,<2",
+    "agent-framework-devui==1.0.0b260910",
+    "python-dotenv>=1.1,<2",
+]
